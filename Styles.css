@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: white;
+}
+
+header {
+  margin: 10px;
+  padding: 20px 30px;
+}
+
+header p {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #003300;
+}
+.top_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 50vh;
+  margin: 20px auto;
+}
+
+.sect {
+  width: 100%;
+  text-align: center;
+  /*    border: 1px solid;*/
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.details {
+  background-color: #99ff66;
+  padding: 0px 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  padding: 10px;
+  margin: 10px 0 10px;
+  color: whitesmoke;
+}
+
+h1 span {
+  color: #003300;
+  font-style: italic;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+button {
+  margin: 40px 0 20px;
+  padding: 10px 40px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: white;
+  background-color: green;
+  text-transform: uppercase;
+}
+
+button:hover {
+  padding: 10px 40px;
+  cursor: pointer;
+  background-color: darkgreen;
+  color: black;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  header {
+    padding: 20px 10px;
+  }
+
+  header p {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #003300;
+  }
+
+  .sect {
+    margin: 10px auto;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 15px 0 10px;
+  }
+
+  p {
+    font-size: 1rem;
+    padding: 5px;
+  }
+  button {
+    margin: 30px;
+    padding: 5px 25px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    color: white;
+    background-color: green;
+    text-transform: uppercase;
+  }
+
+  button:hover {
+    padding: 6px 26px;
+    cursor: pointer;
+    background-color: darkgreen;
+    color: black;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 767px) {
+  /* Smartphones (portrait) ----------- */
+  header {
+    padding: 20px 20px;
+  }
+
+  header p {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #003300;
+  }
+
+  .sect {
+    margin: 15px auto;
+  }
+  h1 {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 15px 0 10px;
+  }
+
+  p {
+    font-size: 1.2rem;
+    padding: 5px;
+  }
+  button {
+    margin: 30px;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: white;
+    background-color: green;
+    text-transform: uppercase;
+  }
+
+  @media only screen and (max-width: 320px) {
+    /* STYLES GO HERE */
+  }
+
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* STYLES GO HERE */
+    header {
+      padding: 20px 30px;
+    }
+
+    header p {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #003300;
+    }
+
+    .sect {
+      margin: 15px auto;
+    }
+    h1 {
+      font-size: 1.5rem;
+      padding: 10px;
+      margin: 15px 0 10px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      padding: 5px;
+    }
+  }
+
+  /* Desktops and laptops ----------- */
+  @media only screen and (min-width: 1224px) {
+    /* STYLES GO HERE */
+  }
+
+  /* Large screens ----------- */
+  @media only screen and (min-width: 1824px) {
+    /* STYLES GO HERE */
+  }
+
+  /* iPhone 5 (portrait & landscape)----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+    /* STYLES GO HERE */
+  }
+
+  /* iPhone 5 (landscape)----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+    /* STYLES GO HERE */
+  }
+
+  /* iPhone 5 (portrait)----------- */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+    /* STYLES GO HERE */
+  }
+}
